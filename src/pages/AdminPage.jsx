@@ -144,7 +144,7 @@ function AdminPage() {
   });
 
   const restaurants = data?.data || [];
-  const users = usersData?.data?.users || [];
+  const users = usersData?.data?.data?.users || [];
 
   const {
     register,
